@@ -18,13 +18,13 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Load Models
 # heart_model =  tf.keras.models.load_model('heartd_prediction_model.h5')
-heart_model = keras.models.load_model("models/heartd_prediction_model.h5")
+heart_model = keras.models.load_model("heartd_prediction_model.h5")
 # tf.lite.TFLiteConverter.from_keras_model('heartd_prediction_model.h5')
 # load_model("heartd_prediction_model.h5")
 # heart_model= load_model(heart_model)
 
 # diab_model =  tf.keras.models.load_model('diabetes_prediction_model.h5')
-diab_model = keras.models.load_model("models/diabetes_prediction_model.h5")
+diab_model = keras.models.load_model("diabetes_prediction_model.h5")
 # tf.lite.TFLiteConverter.from_keras_model('diabetes_prediction_model.h5')
 # load_model("diabetes_prediction_model.h5")
 
